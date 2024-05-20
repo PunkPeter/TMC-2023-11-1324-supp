@@ -1,0 +1,40 @@
+{
+
+	"model_name" : "resnet18",
+
+	"client_total_num" : 10,
+
+	"dataset_name" : "mnist",
+
+	"global_epoch_num" : 1,
+
+	"client_epoch_num" : 1,
+
+	"client_train_num" : 5,
+
+	"batch_size" : 64,
+
+	"lr" : 0.001,
+
+	"momentum" : 0.0001,
+
+	"lambda" : 0.1,
+
+	"compute_power":[0.5,0.6,0.4,0.7,0.3,1,0.1,0.4,0.8,1],
+
+	"compute_input":[1, 1 ,1 ,1 ,1, 1, 1 ,1, 1, 1],
+
+	"self_data":1000,
+
+	"self_compute":1000,
+
+	"rent_factor":1,
+
+	"gas":500000000,
+
+	"deposit_value": 10000,
+
+	"amp_factor": 1e15,
+
+	"ini_contract_value":10000
+}
