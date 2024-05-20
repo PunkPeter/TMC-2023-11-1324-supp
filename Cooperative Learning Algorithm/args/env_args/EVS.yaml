@@ -1,0 +1,12 @@
+env: "EVS"
+
+env_args:
+    "n_agents": 4
+    "S_DDL": 2.0
+    "S_EPSILON": 0.86
+    "W_BANDWITH": 20
+    "independ_reward": False
+    "history": 2
+    "data_path": "./environments/"
+    "episode_limit": 24000 # in time intervals
+    "reset_action": True

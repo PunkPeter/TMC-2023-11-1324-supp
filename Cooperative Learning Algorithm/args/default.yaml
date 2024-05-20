@@ -1,0 +1,52 @@
+"gumbel_softmax": False
+"epsilon_softmax": True
+"softmax_eps": 0.2
+"episodic": False
+"cuda": True
+"grad_clip_eps": 2.0 # activated when grad_clip=True
+"save_model_freq": 40 # episode
+"replay_warmup": 500
+"policy_lrate": null
+"value_lrate": null
+"mixer_lrate": null
+"target": True
+"target_lr": 0.001
+"entr": 2.0e-3
+"max_steps": 240
+"max_eval_steps": 480
+"batch_size": 64 # transition update: steps / episodic update: episodes
+"replay": True
+"replay_buffer_size": 2.0e+3
+"agent_type": "mlp" # rnn/mlp/rnn_with_date
+"agent_id": False
+"use_date": False
+"date_dim": 4
+"shared_params": False
+"layernorm": True
+"mixer": False
+"gaussian_policy": False
+"LOG_STD_MIN": 0.0
+"LOG_STD_MAX": 0.5
+"fixed_policy_std": 2.5 # activated if gaussian policy is False, for exploration
+"hid_activation": "relu" # tanh/relu
+"init_type": "normal" # normal/orthogonal
+"init_std": 0.2
+"action_enforcebound": True
+"double_q": True
+"clip_c": 2.0
+"gamma": 0.99
+"hid_size": 32
+"continuous": True # if the control variable is continuous
+"normalize_advantages": False
+"train_episodes_num": 920
+"behaviour_update_freq": 60 # transition update: steps / episodic update: episodes
+"target_update_freq": 120 # transition update: steps / episodic update: episodes
+"policy_update_epochs": 3
+"value_update_epochs": 3
+"mixer_update_epochs": null
+"reward_normalisation": True
+"eval_freq": 20 # evaluation per xxx episodes
+"num_eval_episodes": 10 # number of episodes for an evaluation
+"multiplier": False
+"encoder": False
+"auxiliary": False

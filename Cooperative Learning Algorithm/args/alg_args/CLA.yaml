@@ -1,0 +1,11 @@
+alg: "cla"
+
+alg_args:
+    "policy_lrate": 2.0e-4
+    "value_lrate": 2.0e-4
+    "attend_heads": 2
+    "norm_in": False
+    "soft": True
+    "reward_scale": 10
+    "gaussian_policy": False
+    "action_enforcebound": True
